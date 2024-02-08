@@ -33,7 +33,7 @@ public class Abbreviate_a_Two_Word_Name {
     }
 
     public static void main(String[] args) {
-        String name = "n n";
+        String name = "mai son hai";
         String result = abbrevName(name);
         System.out.println(result);
     }
