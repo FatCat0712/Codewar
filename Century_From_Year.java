@@ -18,6 +18,8 @@ public class Century_From_Year {
         Scanner sc = new Scanner(System.in);
         int n = sc.nextInt();
         System.out.println("Century: "+ century(n));
+        boolean a = true;
+        System.out.println(String.valueOf(a));
 
     }
 }
