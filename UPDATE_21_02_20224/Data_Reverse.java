@@ -26,12 +26,13 @@ public class Data_Reverse {
             result += reverseArray[i];
         }
         char[] array = result.toCharArray();
-        for(int k = 0; k < array.length; k++){
+        int[] output = new int[array.length];
+        for(int k = 0; k < output.length; k++){
             String e = "";
             e += array[k];
-            data[k] = Integer.parseInt(e);
+            output[k] = Integer.parseInt(e);
         }
-        return data;
+        return output;
     }
 
     public static void main(String[] args) {
